@@ -5,7 +5,7 @@ color:#009900;
 font-size: 100px;
 }
 .mytext{
-  font-family: garramond;
+  font-family: garamond;
   font-size: 10px;
 }
 .myimage{
@@ -15,5 +15,5 @@ font-size: 100px;
 body{
   width:80%;
   margin:10%;
-  font-size:500%;
+  font-size:200%;
 }
