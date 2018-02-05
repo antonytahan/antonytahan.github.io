@@ -1,12 +1,35 @@
 h1 {
 font-family:"cursive";
 text-decoration: underline;
-color:#009900;
-font-size: 100px;
+color:#990000;
+font-size: 50px;
+}
+.title{
+  font-size: 120px;
+  text-align: center;
+  color:black;
+}
+.punchline{
+  font-size:100px;
+  text-align:center;
+}
+.ratings{
+  font-family: garamond;
+  display: inline;
+}
+.ratingsrotten{
+font-family: garamond;
+display: inline;
+text-align: right;
 }
 .mytext{
   font-family: garamond;
   font-size: 10px;
+}
+.ffimage{
+  width:30%;
+  /*display: block;
+  margin: 0 auto; */
 }
 .myimage{
   width:100%;
@@ -16,4 +39,18 @@ body{
   width:80%;
   margin:10%;
   font-size:200%;
+  background-color:#DAA520;
+}
+.aboutactors{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: none;
+  color:black;
+}
+.ppic{
+  width:20%;
+  margin-left: 1em;
+}
+.actornames{
+  margin-left: 1.5em;
 }
