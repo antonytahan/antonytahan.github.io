@@ -12,6 +12,12 @@ font-size: 50px;
 .punchline{
   font-size:100px;
   text-align:center;
+  text-decoration: none;
+}
+.quote{
+  font-size:50px;
+  text-align:right;
+  text-decoration: none;
 }
 .ratings{
   font-family: garamond;
