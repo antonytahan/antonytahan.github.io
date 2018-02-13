@@ -79,7 +79,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 27%;
+  /*  margin-left: 27%*/
 }
 .antony a{
   color:black;
