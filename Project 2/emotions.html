@@ -1,0 +1,18 @@
+<html>
+<head>
+  <link rel="stylesheet" href="emotionstyle.css">
+  <title>
+    Emotions
+  </title>
+</head>
+<body>
+  <div class="alignright">
+    <button class="backarrow" id='backarrow' onclick="mainpage()"> <a id="emotionspage" href="sound.html"> <img src="left-arrow.png"></a></button></div>
+  <div class="container">
+    <div class="item" id="happy"> <div id="happylarge"><img class="onhoverhappy"src="happy.png" onclick="enlargehappy(); chBackColor('#FF6B6B');"><p> Happy</p></div> </div>
+    <div class="item" id="stressed"> <img src="sad.png" onclick="enlargestressed(); chBackColor('#FF6B6B');"><p> Stressed</p> </div>
+    <div class="item" id="sad"> <img class="onhoversad" src="sad.png" onclick="enlargesad(); chBackColor('#708E9E');"><p>Sad</p> </div>
+  </div>
+  <script src="emotionscript.js"></script>
+</body>
+</html>
