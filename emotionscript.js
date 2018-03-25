@@ -83,7 +83,7 @@ function mainpage(){
   document.getElementById('emotionspage').src="sound.html";
 }
 
-button.onclick = () =>
+button.onmouseover = () =>
 {
   mainpage();
   console.log("clicked!");

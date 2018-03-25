@@ -24,6 +24,7 @@ myblock.onclick = () => {
 }*/
 /*$(document).ready(function() {
 	$('#fullpage').fullpage();*/
+  
   function ReplaceForm()
   {
   // Three places to customize:
