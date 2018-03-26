@@ -19,7 +19,7 @@
 .title{
   text-align: center;
   transition: all 2s ease-in-out;
-  opacity: 0;
+  margin:1%;
 }
 /*.title:hover{
   opacity:1;
@@ -28,7 +28,15 @@
 text-align: center;
 padding: 2vw;
 opacity: 0;
-transition: all 2s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+#pic1{
+  display: block;
+  padding: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
 }
 .pic1{
   display: block;
@@ -36,7 +44,7 @@ transition: all 2s ease-in-out;
   margin-left: auto;
   margin-right: auto;
   opacity: 0;
-  transition: all 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
 }
 .pic2{
   display: block;
@@ -44,8 +52,48 @@ transition: all 2s ease-in-out;
   margin-left: auto;
   margin-right: auto;
 }
-#anchor,#anchor2{
+.image{
   position: relative;
-padding-top: 300px;; //(whatever distance from the top of the page you want)
+padding-top: 3vw;; //(whatever distance from the top of the page you want)
 
 }
+.comic1{
+  width:40%;
+  margin-top: 30%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#comic2svg{
+  width:40%;
+  margin-top: 30%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#comic3svg{
+  width:40%;
+  margin-top: 30%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#comic4svg{
+    width:40%;
+    margin-top: 30%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  #comic5svg{
+      width:40%;
+      margin-top: 30%;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
