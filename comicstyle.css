@@ -20,6 +20,9 @@
   text-align: center;
   transition: all 2s ease-in-out;
   margin:1%;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 50px;
+
 }
 .link{
   z-index: 10000
@@ -32,6 +35,8 @@ text-align: center;
 padding: 2vw;
 opacity: 0;
 transition: all 0.5s ease-in-out;
+font-family: 'UnifrakturMaguntia', cursive;
+font-size: 30px;
 }
 #pic1{
   display: block;
@@ -115,4 +120,11 @@ padding-top: 3vw;; //(whatever distance from the top of the page you want)
 }
 .yo{
   overflow-y:hidden
+}
+.refresh{
+  font-size: 35px;
+  text-align: center;
+  font-style: none;
+  font-family: 'UnifrakturMaguntia', cursive;
+padding: 5%;
 }

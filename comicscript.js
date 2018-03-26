@@ -32,6 +32,7 @@ $(document).ready(function(){
 
 $(window).on("load",function() {
   let clickcounter=0
+  var arrowimage=document.getElementById('arrowimage');
   var comic1 = document.getElementById("comic1svg").contentDocument.documentElement;
   var comic2=document.getElementById("comic2svg").contentDocument.documentElement;
   var comic3=document.getElementById("comic3svg").contentDocument.documentElement;
@@ -112,6 +113,7 @@ $(comic6).hover(
       heroText6.style.opacity=0;
       dragonText6.style.opacity=1;
       princessText6.style.opacity=0;
+      arrowimage.src='down-arrow-pink.png'
     }
   )
   $(princess).click(
@@ -125,6 +127,7 @@ $(comic6).hover(
       heroText6.style.opacity=0;
       dragonText6.style.opacity=0;
       princessText6.style.opacity=1;
+      arrowimage.src='down-arrow-pink.png'
     }
   )
   $(hero).click(
@@ -138,6 +141,7 @@ $(comic6).hover(
       heroText6.style.opacity=1;
       dragonText6.style.opacity=0;
       princessText6.style.opacity=0;
+      arrowimage.src='down-arrow-pink.png'
     }
   )
 })
