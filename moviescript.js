@@ -46,6 +46,20 @@ window.addEventListener('load', () =>{
 
 
                       }
+											theButton3.onclick=() =>{
+												theVideo=document.getElementById("movie3");
+												theVideo.style.display='block';
+												theButton1.style.display='none';
+												theButton2.style.display='none';
+												theButton3.style.display='none';
+												theMain.style.display='none';
+												theTitle.style.display='none';
+												theOverlayButton.style.display='block';
+												theBackButton.style.display='block';
+
+
+											}
+
                   });
 
 									function on() {
