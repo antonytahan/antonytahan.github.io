@@ -1,0 +1,14 @@
+.authorcontainer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:300%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.authorpic{
+  width:25vw;
+  height:200px;
+  text-align: center;
+}

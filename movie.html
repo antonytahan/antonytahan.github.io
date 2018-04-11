@@ -2,17 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> How to: MAKE AN ACTION MOVIE THAT HAS A TWIST AND IS BEAST
+    <title> How to Make an Action Movie
     </title>
-    <p class='title'>How to: MAKE AN ACTION MOVIE THAT HAS A TWIST AND IS BEAST<p>
     <link rel="stylesheet" type="text/css" href="moviestyle.css">
   </head>
   <body>
+
+    <div id="overlay" onclick="off()"></div>
+    <div id='main'>
+<p class='title' id='title'>How to:</br> Make An Action Movie</p>
     <div class="container">
-      <div class="item" id='part1'> Part I </div>
-      <div class="item" id='part2'> Part II </div>
-      <div class="item" id='part3'> Part III </div>
-    <!-- heyyy -->
+      <button class="item" id='part1'> Part I </button>
+      <button class="item" id='part2'> Part II </button>
+      <button class="item" id='part3'> Part III </button>
     </div>
+
+  </div>
+  <iframe id='movie1' class='movies'  src="https://www.youtube.com/embed/U9BwWKXjVaI" frameborder="0" encrypted-media" allowfullscreen">
+  </iframe>
+  <iframe id='movie2' class='movies' src="https://www.youtube.com/embed/vpuzddFmrWs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+  </iframe>
+
+
+   <button id='overlaybutton' onclick="on()">Dim the Lights </button>
+  <a href= "movie.html"><img id='backbutton'src='leftarrow.png'></a>
+    <script src="moviescript.js"></script>
   </body>
 </html>
