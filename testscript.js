@@ -8,6 +8,6 @@ the1.onmouseover= () =>{
 theAudio.play();
 }
 the2.onclick = () => {
-  theVideo.style.display='inline';
+  document.getElementById("video1").style.display='inline';
 }
 });
