@@ -1,0 +1,36 @@
+.title{
+  transition: all .5s ease-in-out;
+  text-align:center;
+}
+.title:hover{
+  transform:scale(2);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.button{
+  color:white;
+  margin: 10vw;
+  font-size: 40px;
+  font-family: 'arial';
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 15px 32px;
+  text-decoration:'bold';
+  font-weight: bold;
+  display: inline-block;
+  transition: all .2s ease-in-out;
+}
+#video1{
+  display:none;
+}
