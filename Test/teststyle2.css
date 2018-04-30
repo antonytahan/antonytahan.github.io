@@ -34,3 +34,7 @@
 #video1{
   display:none;
 }
+#image{
+  width:300px;
+  display: none;
+}
