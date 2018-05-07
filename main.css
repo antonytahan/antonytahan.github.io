@@ -41,5 +41,8 @@ background-color: transparent;
   margin-right: 10%;
 }
 canvas{
-margin-left: 38%;
+display: inline-block;
+}
+body{
+  text-align: center;
 }

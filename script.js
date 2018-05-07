@@ -26,7 +26,7 @@ var cnv;
 
 
 function setup() {
-  cnv = createCanvas(500,500);
+  cnv = createCanvas(500,450);
   // centerCanvas(cnv);
 
 }
