@@ -1,12 +1,13 @@
 html{
-  background-color: #C89B7B;
+/*  background-color: #C89B7B;*/
 }
 .heading{
 font-size: 30px;
 text-align: center;
 justify-content: center;
 align-items: center;
-margin-top: 30%;
+margin-top: 5%;
+font-family: 'Montserrat', sans-serif;
 }
 .container{
   align-items: center;
@@ -18,17 +19,27 @@ margin-top: 30%;
   transform:translate(-50%,-50%);
 }
 .project{
-  width: 300px;
+  width: 250px;
   height: 50px;
-  background-color: #F4AFB4;
+/*  background-color: #F4AFB4;*/
+background-color: transparent;
   margin: 10px;
   text-align: center;
-  border: none;
-    color: white;
+  border: solid black;
+    color: black;
     border-radius: 8px;
     line-height: 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.margins{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+canvas{
+margin-left: 35%;
 }

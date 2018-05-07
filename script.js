@@ -1,48 +1,50 @@
-/*console.log("Hello World!")
-//eventlistener
-//document object model
+// function setup(){
+//   createCanvas(windowWidth,windowHeight)
+// }
+//
+// function draw(){
+//   if(mouseIsPressed){
+//     c = color('#00ff00');
+//
+//     fill(c);
+//   }
+//   else{
+//     fill(255);
+//   }
+//   ellipse(mouseX, mouseY, 80, 80);
+//   }
 
-let myvariable = 'antony'
-let mynumberofclicks= 0
+// var currentColor = color('#00ff00');
+
+var cnv;
+
+// function centerCanvas(cnv) {
+//   var x = (windowWidth - width) / 2;
+//   var y = (windowHeight - height) / 2;
+//   cnv.position(x, y);
+// }
 
 
-console.log(myvariable)
-let myblock= document.getElementById("myblock")
-console.log(myblock)
-myblock.onclick = () => {
-  //myblock.stye.height='0px'
-  //css transition
+function setup() {
+  cnv = createCanvas(500,450);
+  // centerCanvas(cnv);
 
-  //setTimeout( () =>{
-  //let myvideo=document.getElementById("VIDEONAME")
-  //myvideo.play()
-  //myvideo.style.display="block"},1000)
 }
-  mynumberofclicks+=1
-  console.log('I have been clicked')
-  console.log("you have clicked: "+mynumberofclicks)
-}*/
-/*$(document).ready(function() {
-	$('#fullpage').fullpage();*/
-  
-  function ReplaceForm()
-  {
-  // Three places to customize:
 
-  // Specify the id of the form.
-  var IDofForm = "form3";
-
-  // Specify the id of the div containing the form.
-  var IDofDivWithForm = "example3";
-
-  // Specify the id of the div with the content to replace the form with.
-  var IDforReplacement = "for_replacement";
-
-  // End of customizations.
-
-  // This line submits the form. (If Ajax processed, call Ajax function, instead.)
-  /*document.getElementById(IDofForm).submit();*/
-
-  // This replaces the form with the replacement content.
-  document.getElementById(IDofDivWithForm).innerHTML = document.getElementById(IDforReplacement).innerHTML;
+function draw() {
+  if(mouseIsPressed){
+    fill(255);
   }
+  else{
+  // use color
+    c = color(random(256), random(256), random(256));
+   fill(c);
+  }
+  ellipse(mouseX, mouseY, 80, 80);
+
+}
+
+// void mousePressed() {
+//   // change color
+//   currentColor = color(random(256), random(256), random(256));
+// }
