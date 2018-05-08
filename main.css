@@ -2,7 +2,7 @@ body{
 /*  background-color: #C89B7B;*/
 }
 .heading{
-font-size: 50px;
+font-size: 30px;
 text-align: center;
 justify-content: center;
 align-items: center;
@@ -12,11 +12,9 @@ font-family: 'Montserrat', sans-serif;
   align-items: center;
   justify-content: center;
   display: flex;
-  position: absolute;
-  top: 80%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  padding-top: 10vw;
+  /* top: 80%; */
+  /* left:50%; */
+  /* transform:translate(-50%,-50%); */
 }
 .project{
   width: 250px;
@@ -95,4 +93,7 @@ li a:hover:not(.active) {
 .instructions{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+#canvas{
+padding: 1vw;
 }

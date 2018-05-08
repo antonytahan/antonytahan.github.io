@@ -6,6 +6,7 @@ var b= 50;
 
 function setup() {
   cnv = createCanvas(900,450);
+  cnv.parent('canvas');
   // colorMode(HSB, 255);
     // slider has a range between 0 and 255 with a starting value of 127
     // slider = createSlider(0, 255, 127);
@@ -13,8 +14,8 @@ function setup() {
 
   // centerCanvas(cnv);
 }
-
 function draw() {
+
   // if(keyCode===ENTER){
   //    c = color(random(256), random(256), random(256));
   //    fill(c);
