@@ -6,7 +6,7 @@ var amplitude = 75.0; // Height of wave
 var period = 500.0;   // How many pixels before the wave repeats
 var dx;               // Value for incrementing x
 var yvalues;  // Using an array to store height values for the wave
-
+var cnv_about;
 
 // var colors_TO_change_In_Sequence = ["blue", "yellow", "pink", "black", "white", "green", "purple", "red", "orange"];
 // bg_changer(colors_TO_change_In_Sequence, 1000);
@@ -21,7 +21,8 @@ var yvalues;  // Using an array to store height values for the wave
   var c=0;
 
 function setup() {
-  createCanvas(windowWidth, 400);
+  cnv_about=createCanvas(windowWidth, 400);
+  cnv_about.parent('sine');
   colorMode(HSB);
   w = width+16;
   dx = (TWO_PI / period) * xspacing;

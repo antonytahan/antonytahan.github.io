@@ -1,0 +1,13 @@
+.contact_header{
+  font-family: "Montserrat",sans-serif;
+  font-size: 30px;
+}
+.contact_details{
+  font-family: "Montserrat",sans-serif;
+  text-align: center;
+  padding: 5vw;
+  display: block;
+}
+.single_detail{
+  padding: 1vw;
+}
