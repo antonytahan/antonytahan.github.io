@@ -1,4 +1,4 @@
-html{
+body{
 /*  background-color: #C89B7B;*/
 }
 .heading{
@@ -6,7 +6,6 @@ font-size: 30px;
 text-align: center;
 justify-content: center;
 align-items: center;
-margin-top: 5%;
 font-family: 'Montserrat', sans-serif;
 }
 .container{
@@ -17,6 +16,7 @@ font-family: 'Montserrat', sans-serif;
   top: 80%;
   left:50%;
   transform:translate(-50%,-50%);
+  padding-top: 10vw;
 }
 .project{
   width: 250px;
@@ -34,7 +34,12 @@ background-color: transparent;
     display: inline-block;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-
+    transition: all .2s ease-in-out;
+}
+.project:hover{
+  transform: scale(1.1);
+  background-color: black;
+  color:white;
 }
 .margins{
   margin-left: 10%;
@@ -45,4 +50,49 @@ display: inline-block;
 }
 body{
   text-align: center;
+}
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+}
+
+li {
+    float: left;
+    padding-right: 1vw;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-family:' Montserrat', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    /* border-right: 2px solid black;
+    border-left: 2px solid black; */
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+.instructions{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }

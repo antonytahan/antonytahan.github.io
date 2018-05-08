@@ -1,50 +1,49 @@
-// function setup(){
-//   createCanvas(windowWidth,windowHeight)
-// }
-//
-// function draw(){
-//   if(mouseIsPressed){
-//     c = color('#00ff00');
-//
-//     fill(c);
-//   }
-//   else{
-//     fill(255);
-//   }
-//   ellipse(mouseX, mouseY, 80, 80);
-//   }
-
-// var currentColor = color('#00ff00');
-
 var cnv;
-
-// function centerCanvas(cnv) {
-//   var x = (windowWidth - width) / 2;
-//   var y = (windowHeight - height) / 2;
-//   cnv.position(x, y);
-// }
-
+var slider;
+var r=0;
+var g=10;
+var b= 50;
 
 function setup() {
-  cnv = createCanvas(500,450);
-  // centerCanvas(cnv);
+  cnv = createCanvas(900,450);
+  // colorMode(HSB, 255);
+    // slider has a range between 0 and 255 with a starting value of 127
+    // slider = createSlider(0, 255, 127);
+    // slider.position(100,100);
 
+  // centerCanvas(cnv);
 }
 
 function draw() {
+  // if(keyCode===ENTER){
+  //    c = color(random(256), random(256), random(256));
+  //    fill(c);
+  // }
+  // if( keyCode===87){
+  //   c=color(255);
+  //   fill(c);
+  // }
   if(mouseIsPressed){
-    fill(255);
+    fill(255)
   }
   else{
-  // use color
+    // if (r >= 255)  r=0;  else  r++;
+    //   if (g >= 255)  g=0;  else  g++;
+    //   if (b >= 255)  b=0;  else  b++;
+    // fill(r,100,100);
     c = color(random(256), random(256), random(256));
-   fill(c);
+    fill(c);
   }
+ //  else if(mouseIsPressed){
+ //    fill(255);
+ //  }
+ //  else{
+ //  // use color
+ //   //  c = color(random(256), random(256), random(256));
+ //   // fill(c);
+ //   strokeWeight(2);
+ // // stroke(slider.value(), 255, 255);
+ //   fill(slider.value(), 255, 255, 127);
+ //  }
   ellipse(mouseX, mouseY, 80, 80);
-
 }
-
-// void mousePressed() {
-//   // change color
-//   currentColor = color(random(256), random(256), random(256));
-// }

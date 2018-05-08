@@ -4,6 +4,8 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   <script src="script.js"></script>
   <script src="p5.js"></script>
+  <script src="p5.dom.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 
@@ -13,16 +15,25 @@ Main Page
 </title>
 </head>
 <body>
+  <ul>
+  <li><a class="active" href="#home">home</a></li>
+  <li><a href="about.html">about</a></li>
+  <li><a href="#contact">contact</a></li>
+</ul>
   <div class='heading'>Communications Lab Projects</div>
-</br></br>
+</br>
 <!-- <div class='margins'> -->
-
+<div id='canvas'> </div>
+<div class='instructions'> move mouse around to begin painting your 3d mosaic </br>
+  click and drag for white
+  <!-- type any letter to stop on a random color</br>-->
+   <!--hit w for white--></div>
   <div class='container'>
-<a href="FirstWebsite/30ff.html"><div  class='project'> Project 1 </div></a>
-<a href="Sound\sound.html"><div class='project'>Project 2</div></a>
-<a href='Comic\comic.html'><div class='project'>Project 3</div></a>
-<a href='Movie\movie.html'><div class='project'>Project 4</div></a>
-<a href='animation\index.html'><div class='project'> Project 5 </div></a>
+<a href="FirstWebsite\30ff.html"target='_blank'><div  class='project'> Project 1 </div></a>
+<a href="Sound\sound.html" target='_blank'><div class='project'>Project 2</div></a>
+<a href='Comic\comic.html'target='_blank'><div class='project'>Project 3</div></a>
+<a href='Movie\movie.html'target='_blank'><div class='project'>Project 4</div></a>
+<a href='animation\index.html'target='_blank'><div class='project'> Project 5 </div></a>
 </div>
 <!-- </div> -->
 </body>
