@@ -5,7 +5,7 @@ var g=10;
 var b= 50;
 
 function setup() {
-  cnv = createCanvas(900,450);
+  cnv = createCanvas(800,400);
   cnv.parent('canvas');
   // colorMode(HSB, 255);
     // slider has a range between 0 and 255 with a starting value of 127

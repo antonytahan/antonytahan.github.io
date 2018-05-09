@@ -10,6 +10,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .container{
   align-items: center;
+  padding-top: 3vw;
   justify-content: center;
   display: flex;
   /* top: 80%; */
@@ -65,6 +66,7 @@ ul {
 
 li {
     float: left;
+    /* padding-right: 1vw; */
     padding-right: 1vw;
 }
 
@@ -79,6 +81,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 8px;
+    /* border: 2px solid black; */
+
 }
 
 li a:hover:not(.active) {
