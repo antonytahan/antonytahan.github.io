@@ -3,6 +3,8 @@ var slider;
 var r=0;
 var g=10;
 var b= 50;
+var x = window.matchMedia("(min-width: 600px)");
+var white_option= document.getElementById('white_opt');
 
 function setup() {
   cnv = createCanvas(windowWidth,400);
@@ -24,9 +26,16 @@ function draw() {
   //   c=color(255);
   //   fill(c);
   // }
+
   if(mouseIsPressed){
-    fill(255)
-  }
+  if (window.matchMedia("(orientation: portrait)").matches) {
+    c = color(random(256), random(256), random(256));
+    fill(c);
+}
+else{
+  fill(255)
+}
+}
   else{
     // if (r >= 255)  r=0;  else  r++;
     //   if (g >= 255)  g=0;  else  g++;
