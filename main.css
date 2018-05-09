@@ -10,7 +10,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .container{
   align-items: center;
-  padding-top: 3vw;
+  padding-top: 1vw;
   justify-content: center;
   display: flex;
   /* top: 80%; */
@@ -100,5 +100,7 @@ li a:hover:not(.active) {
   font-family: 'Montserrat', sans-serif;
 }
 #canvas{
-padding: 1vw;
+padding-top: 1vw;
+padding-bottom: 1vw;
+margin-right: 1vw;
 }
