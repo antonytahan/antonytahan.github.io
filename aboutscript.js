@@ -7,7 +7,7 @@ var period = 500.0;   // How many pixels before the wave repeats
 var dx;               // Value for incrementing x
 var yvalues;  // Using an array to store height values for the wave
 var cnv_about;
-
+var c=0;
 // var colors_TO_change_In_Sequence = ["blue", "yellow", "pink", "black", "white", "green", "purple", "red", "orange"];
 // bg_changer(colors_TO_change_In_Sequence, 1000);
 
@@ -18,7 +18,7 @@ var cnv_about;
 //   }, millisecond);
 // }
 
-  var c=0;
+
 
 function setup() {
   cnv_about=createCanvas(windowWidth, 400);

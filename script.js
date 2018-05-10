@@ -1,13 +1,13 @@
 var cnv;
-var slider;
-var r=0;
-var g=10;
-var b= 50;
+// var slider;
+// var r=0;
+// var g=10;
+// var b= 50;
 var x = window.matchMedia("(min-width: 600px)");
 var white_option= document.getElementById('white_opt');
 
 function setup() {
-  cnv = createCanvas(windowWidth,400);
+  cnv = createCanvas(windowWidth,420);
   cnv.parent('canvas');
   // colorMode(HSB, 255);
     // slider has a range between 0 and 255 with a starting value of 127
@@ -28,14 +28,15 @@ function draw() {
   // }
 
   if(mouseIsPressed){
-  if (window.matchMedia("(orientation: portrait)").matches) {
+    if (window.matchMedia("(orientation: portrait)").matches) {
     c = color(random(256), random(256), random(256));
     fill(c);
-}
-else{
+      }
+    else{
   fill(255)
-}
-}
+    }
+  }
+
   else{
     // if (r >= 255)  r=0;  else  r++;
     //   if (g >= 255)  g=0;  else  g++;
