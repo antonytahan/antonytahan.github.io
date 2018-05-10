@@ -83,7 +83,6 @@ li a:hover:not(.active) {
 #canvas{
 padding-top: 2vw;
 padding-bottom: 1vw;
-margin-right: 1vw;
 }
 @media only screen
   and (min-device-width: 375px)
