@@ -81,7 +81,7 @@ li a:hover:not(.active) {
   font-family: 'Montserrat', sans-serif;
 }
 #canvas{
-padding-top: 1vw;
+padding-top: 2vw;
 padding-bottom: 1vw;
 margin-right: 1vw;
 }
