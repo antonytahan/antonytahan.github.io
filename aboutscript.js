@@ -1,4 +1,4 @@
-
+//------------Adapted from p5------------
 var xspacing = 16;    // Distance between each horizontal location
 var w;                // Width of entire wave
 var theta = 0.0;      // Start angle at 0
