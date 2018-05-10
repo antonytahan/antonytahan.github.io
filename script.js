@@ -7,7 +7,7 @@ var x = window.matchMedia("(min-width: 600px)");
 var white_option= document.getElementById('white_opt');
 
 function setup() {
-  cnv = createCanvas(windowWidth,450);
+  cnv = createCanvas(windowWidth,500);
   cnv.parent('canvas');
   // colorMode(HSB, 255);
     // slider has a range between 0 and 255 with a starting value of 127
