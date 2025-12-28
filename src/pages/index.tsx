@@ -4,6 +4,7 @@ import config from '../../config.json';
 import { Input } from '../components/input';
 import { useHistory } from '../components/history/hook';
 import { History } from '../components/history/History';
+import { ThemeToggle } from '../components/ThemeToggle';
 import { banner } from '../utils/bin';
 
 interface IndexPageProps {
@@ -40,6 +41,8 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
       <Head>
         <title>{config.title}</title>
       </Head>
+
+      <ThemeToggle />
 
       <div className="p-8 overflow-hidden h-full border-2 rounded border-light-yellow dark:border-dark-yellow">
         <div ref={containerRef} className="overflow-y-auto h-full">

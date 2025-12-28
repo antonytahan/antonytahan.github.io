@@ -158,5 +158,25 @@
       "blue": "#06B6EF",
       "red": "#EF6155"
     }
+  },
+  "OldSchool": {
+    "light": {
+      "background": "#FFFFFF",
+      "foreground": "#000000",
+      "yellow": "#B8860B",
+      "green": "#00AA00",
+      "gray": "#666666",
+      "blue": "#0066CC",
+      "red": "#CC0000"
+    },
+    "dark": {
+      "background": "#000000",
+      "foreground": "#00FF00",
+      "yellow": "#00FF00",
+      "green": "#00FF00",
+      "gray": "#00AA00",
+      "blue": "#00FF00",
+      "red": "#00FF00"
+    }
   }
 }

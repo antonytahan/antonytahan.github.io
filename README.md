@@ -1,6 +1,6 @@
 # Antony Tahan - Personal Website
 
-Terminal-style personal website built with LiveTerm and Next.js.
+Terminal-style personal website built with [LiveTerm](https://github.com/Cveinnt/LiveTerm) and Next.js.
 
 ## Local Development
 
@@ -17,8 +17,8 @@ Type these commands in the terminal interface:
 
 - `help` - Show all available commands
 - `about` - Learn about me
-- `cv` or `resume` - View my CV
-- `projects` - View my interactive media projects
+- `resume` - View my CV
+- `improject` - View my 2018 college interactive media project
 - `sumfetch` - Display summary information
 - `github` - Open my GitHub profile
 - `linkedin` - Open my LinkedIn profile
@@ -67,6 +67,7 @@ Then configure GitHub Pages to deploy from the `main` branch.
 ## Customization
 
 Edit `config.json` to update:
+
 - Personal information
 - Social links
 - Color themes
@@ -76,3 +77,7 @@ Edit `config.json` to update:
 
 - **Main Site**: https://antonytahan.github.io
 - **Interactive Media Projects**: https://antonytahan.github.io/interactive-media-project/
+
+## Credits
+
+This website is built using [LiveTerm](https://github.com/Cveinnt/LiveTerm) by [Cveinnt](https://github.com/Cveinnt) - a highly customizable, easy-to-use, and minimal terminal styled website template.
