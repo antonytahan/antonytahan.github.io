@@ -1,0 +1,36 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/antonytahan/antonytahan/master/README.md",
+  "title": "Antony Tahan",
+  "name": "Antony Tahan",
+  "ascii": "antonytahan",
+  "social": {
+    "github": "antonytahan",
+    "linkedin": "antonytahan"
+  },
+  "email": "antonytahan@nyu.edu",
+  "ps1_hostname": "antonytahan",
+  "ps1_username": "visitor",
+  "repo": "https://github.com/antonytahan/antonytahan.github.io",
+  "resume_url": "/ANTONYTAHAN-CV2.pdf",
+  "donate_urls": {},
+  "colors": {
+    "light": {
+      "background": "#FBF1C9",
+      "foreground": "#3C3836",
+      "yellow": "#D79921",
+      "green": "#98971A",
+      "gray": "#7C6F64",
+      "blue": "#458588",
+      "red": "#CA2124"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
