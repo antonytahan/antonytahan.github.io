@@ -18,7 +18,7 @@ export const help = async (args: string[]): Promise<string> => {
 \n${c}\n
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
+Type 'about' to learn more about me.
 `;
 };
 
@@ -30,13 +30,25 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' or 'cv' - my latest CV.
-'improject' - view my 2018 college interactive media project.
-'readme' - my github readme.`;
+  return `
+Hi! My name is ${config.name}.
+
+I hold a Bachelors in Electrical Engineering from NYU and a Masters in Computer Science from Cornell.
+I'm currently working as a Software Engineer at Gecko Robotics.
+My hobbies include playing and watching soccer (I'm an avid Chelsea fan), and playing the piano.
+I currently reside in New York.
+
+CONTACT
+-------
+<u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
+<u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
+<u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
+
+LINKS
+-----
+<u><a href="${config.resume_url}" target="_blank">Resume/CV</a></u>
+<u><a href="${config.repo}" target="_blank">Github</a></u>
+`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -114,8 +126,9 @@ export const banner = (args?: string[]): string => {
     █████   ░░████████ ████ █████░░████████ ████ █████            
    ░░░░░     ░░░░░░░░ ░░░░ ░░░░░  ░░░░░░░░ ░░░░ ░░░░░             
 
-Type 'sumfetch' to display summary.
-Type 'cv' to view my CV.
-Type 'help' to see available commands.
+Type 'about' to learn more about me.
+Type 'resume' to view my CV.
+Type 'linkedin' or 'email' to get in touch.
+Type 'help' to see all available commands.
 `;
 };
